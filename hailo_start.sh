@@ -7,7 +7,7 @@ if [ -f "$INSMOD_PATH" ]; then
     # Wait for the kernel to register the device hardware
     sleep 3
 else
-    echo "Error: hailo1x_pci_4.21.0.ko not found at $INSMOD_PATH"
+    echo "Error: hailo_pci_4.21.0.ko not found at $INSMOD_PATH"
     exit 1
 fi
 # 2. Dynamically create the /dev/hailo0 node
