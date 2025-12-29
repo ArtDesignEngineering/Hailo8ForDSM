@@ -16,6 +16,6 @@ _sudo cp hailo8_fw.4.21.0.bin /lib/firmware/hailo/hailo8_fw.bin_
 
 5. Check with _hailortcli scan_ and _dmesg | grep hailo_
 
-6. Prepare _hailo_start.sh_ startup script in DSM web interface: make it executable by root on boot with command line: _bash /volume1/homes/dadmin/hailo8/hailo_start.sh_
+6. Prepare _hailo_start.sh_ startup script in DSM web interface: make it executable by root on boot with command line: _bash /volume1/path/to/your/hailo_start.sh_
 
 7. Reboot and check
