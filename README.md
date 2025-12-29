@@ -1,5 +1,5 @@
 # Hailo8ForDSM
-Compiled Hailo8 (m.2 M-key) TPU 4.21.0 driver for Syno DSM 7.2.2 (SA6400 model) to use with Frigate NVR.
+Compiled Hailo8 (m.2 M-key) TPU 4.21.0 driver for DSM 7.2.2 (SA6400 model) to use with Frigate NVR.
 
 One of the most common scenario of Frigate usage is to deploy it via docker on DSM 7.2.2, since DSM is very popular in home installations (it's much easier to install and setup comparing to other NAS systems).
 Using popular AlderLake Intel nXXX platform (usually mini-pc) allow to build very powerful and power-efficient Frigate NVR solution (sometimes it is combined with home NAS storage, file server, media server and other roles).
