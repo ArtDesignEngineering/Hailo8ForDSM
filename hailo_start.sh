@@ -1,7 +1,7 @@
 #!/bin/sh
 # 1. Load the compiled Hailo driver
 # Replace with your actual path
-INSMOD_PATH="/volume1/docker/hailo1x_pci_4.21.0.ko"
+INSMOD_PATH="/volume1/docker/hailo_pci_4.21.0.ko"
 if [ -f "$INSMOD_PATH" ]; then
     insmod "$INSMOD_PATH"
     # Wait for the kernel to register the device hardware
